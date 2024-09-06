@@ -1,175 +1,154 @@
 <!DOCTYPE HTML>
 {% load static %}
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Spectral by HTML5 UP</title>
+		<title>Climate Change Prediction</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="{%  static 'assets/css/main.css' %}" />
-		<noscript><link rel="stylesheet" href="{%  static 'assets/css/noscript.css' %}" /></noscript>
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+		<noscript><link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}" /></noscript>
 	</head>
 	<body class="landing is-preload">
 
 		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+		<div id="page-wrapper">
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Spectral</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
+			<!-- Header -->
+			<header id="header" class="alt">
+				<h1><a href="index.html">Climate Change Prediction</a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="special">
+							<a href="#menu" class="menuToggle"><span>Menu</span></a>
+							<div id="menu">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="research.html">Research</a></li>
+									<li><a href="models.html">AI Models</a></li>
+									<li><a href="#">Sign Up</a></li>
+									<li><a href="#">Log In</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h2>Predicting Climate Change</h2>
+					<p>Leveraging AI Models for<br />
+					Accurate Climate Change Predictions</p>
+					<ul class="actions special">
+						<li><a href="#" class="button primary">Explore Models</a></li>
+					</ul>
+				</div>
+				<a href="#one" class="more scrolly">Learn More</a>
+			</section>
+
+			<!-- One -->
+			<section id="one" class="wrapper style1 special">
+				<div class="inner">
+					<header class="major">
+						<h2>Using AI to Understand Climate Change</h2>
+						<p>We utilize SVMs and Random Forests to enhance<br />
+						the accuracy of climate change predictions globally.</p>
 					</header>
+					<ul class="icons major">
+						<li><span class="icon solid fa-thermometer-half"><span class="label">Environment</span></span></li> <!-- 'tree' icon for environment -->
+						<li><span class="icon solid fa-cloud"><span class="label">AI</span></span></li> <!-- 'cogs' icon for AI -->
+							
+						<li><span class="icon solid fa-chart-line"><span class="label">Prediction</span></span></li>
+					</ul>
+				</div>
+			</section>
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>Spectral</h2>
-							<p>Another fine responsive<br />
-							site template freebie<br />
-							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button primary">Activate</a></li>
-							</ul>
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
+			<!-- Two -->
+			<section id="two" class="wrapper alt style2">
+				<section class="spotlight">
+					<div class="image"><img src="{% static 'images/climate1.jpg' %}" alt="" /></div><div class="content">
+						<h2>Data-Driven Climate Models</h2>
+						<p>Our system integrates advanced climate data with machine learning to provide regional and global predictions on climate change.</p>
+					</div>
+				</section>
+				<section class="spotlight">
+					<div class="image"><img src="{% static 'images/climate2.jpg' %}" alt="" /></div><div class="content">
+						<h2>AI Models for Climate Forecasting</h2>
+						<p>SVMs and Random Forests are powerful tools that help us analyze large datasets and predict extreme weather events with precision.</p>
+					</div>
+				</section>
+				<section class="spotlight">
+					<div class="image"><img src="{% static 'images/climate3.jpg' %}" alt="" /></div><div class="content">
+						<h2>Impact on Policy</h2>
+						<p>Our predictions aim to provide policymakers with accurate data to make informed decisions about climate change mitigation.</p>
+					</div>
+				</section>
+			</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="icons major">
-								<li><span class="icon fa-gem major style1"><span class="label">Lorem</span></span></li>
-								<li><span class="icon fa-heart major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
-							</ul>
-						</div>
-					</section>
+			<!-- Three -->
+			<section id="three" class="wrapper style3 special">
+				<div class="inner">
+					<header class="major">
+						<h2>Explore the AI Models We Use</h2>
+						<p>Discover the power of SVMs and Random Forests in understanding climate dynamics.</p>
+					</header>
+					<ul class="features">
+						<li class="icon solid fa-chart-line">
+							<h3>SVM Models</h3>
+							<p>Support Vector Machines (SVMs) are used for classification and regression, making them ideal for analyzing climate data.</p>
+						</li>
+						<li class="icon solid fa-cloud">
+							<h3>Random Forest Models</h3>
+							<p>Random Forests are effective for predicting large-scale climate patterns, combining decision trees to enhance accuracy.</p>
+						</li>
+						<li class="icon solid fa-thermometer-half">
+							<h3>Extreme Weather Prediction</h3>
+							<p>We focus on forecasting extreme events like heatwaves, storms, and floods, helping communities prepare for the future.</p>
+						</li>
+					</ul>
+				</div>
+			</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-					</section>
+			<!-- CTA -->
+			<section id="cta" class="wrapper style4">
+				<div class="inner">
+					<header>
+						<h2>Join Us in Making a Difference</h2>
+						<p>Our project contributes to global efforts in climate prediction and disaster mitigation.</p>
+					</header>
+					<ul class="actions stacked">
+						<li><a href="#" class="button fit primary">Get Involved</a></li>
+						<li><a href="#" class="button fit">Learn More</a></li>
+					</ul>
+				</div>
+			</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
-						</div>
-					</section>
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Climate Change Prediction Project</li><li>Design: <a href="#">Sofia Mehmood</a></li>
+				</ul>
+			</footer>
 
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-
-			</div>
+		</div>
 
 		<!-- Scripts -->
-			<script src="{%  static 'assets/js/jquery.min.js' %}"></script>
-			<script src="{%  static 'assets/js/jquery.scrollex.min.js' %}"></script>
-			<script src="{%  static 'assets/js/jquery.scrolly.min.js' %}"></script>
-			<script src="{%  static 'assets/js/browser.min.js' %}"></script>
-			<script src="{%  static 'assets/js/breakpoints.min.js' %}"></script>
-			<script src="{%  static 'assets/js/util.js' %}"></script>
-			<script src="{%  static 'assets/js/main.js' %}"></script>
+		<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+		<script src="{% static 'assets/js/jquery.scrollex.min.js' %}"></script>
+		<script src="{% static 'assets/js/jquery.scrolly.min.js' %}"></script>
+		<script src="{% static 'assets/js/browser.min.js' %}"></script>
+		<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+		<script src="{% static 'assets/js/util.js' %}"></script>
+		<script src="{% static 'assets/js/main.js' %}"></script>
 
 	</body>
 </html>

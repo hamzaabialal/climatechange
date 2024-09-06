@@ -14,3 +14,7 @@ class ElementsPageView(TemplateView):
 
 class GenericPageView(TemplateView):
     template_name = 'generic.html'
+    
+    
+class GenericPageView(TemplateView):
+    template_name = 'documentation.html'
