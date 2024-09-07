@@ -3997,3 +3997,38 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+	/* Styling for input fields */
+/* Styling for input fields */
+.field input[type="text"],
+.field input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    color: #000; /* Set text color to black */
+    transition: border-color 0.3s ease;
+}
+
+.field input[type="text"]:focus,
+.field input[type="number"]:focus {
+    border-color: #007bff; /* Highlight color */
+    outline: none;
+}
+
+/* Additional styling for the input fields */
+.field {
+    margin-bottom: 1rem;
+}
+
+.field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.field input::placeholder {
+    color: black; /* Placeholder color */
+    font-style: italic;
+}
+

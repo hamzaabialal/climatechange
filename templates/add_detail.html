@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+<head>
+    <title>Climate Change Prediction</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <noscript><link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}" /></noscript>
+    <style>
+.transparent-input {
+    background-color: transparent;
+    border: 1px solid #ccc; /* Or adjust according to your design */
+    color: #000; /* Adjust text color if needed */
+}
+</style>
+
+</head>
+<body class="landing is-preload">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Header and other sections here... -->
+
+        <!-- Data Input -->
+        <section id="data-input" class="wrapper style4">
+            <div class="inner">
+                <header>
+                    <h2>Submit Climate Data</h2>
+                    <p>Provide your data to help us improve climate change predictions.</p>
+                </header>
+                <form method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <ul class="actions stacked">
+                        <li><input type="submit" value="Submit Data" class="button primary" /></li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+
+        <!-- Data Table -->
+        {% if year_data %}
+        <section id="data-table" class="wrapper style4">
+            <div class="inner">
+                <header>
+                    <h2>Climate Data for {{ form.cleaned_data.year }} in {{ form.cleaned_data.country }}</h2>
+                </header>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Detail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Average Temperature</td>
+                            <td>{{ year_data.temperature.avg }}</td>
+                        </tr>
+                        <tr>
+                            <td>Min Temperature</td>
+                            <td>{{ year_data.temperature.min }}</td>
+                        </tr>
+                        <tr>
+                            <td>Max Temperature</td>
+                            <td>{{ year_data.temperature.max }}</td>
+                        </tr>
+                        <tr>
+                            <td>Total Precipitation (mm)</td>
+                            <td>{{ year_data.precipitation.total_mm }}</td>
+                        </tr>
+                        <tr>
+                            <td>Average Precipitation (mm)</td>
+                            <td>{{ year_data.precipitation.avg_mm }}</td>
+                        </tr>
+                        <tr>
+                            <td>Total CO2 Emissions (tonnes)</td>
+                            <td>{{ year_data.CO2_emissions.total_tonnes }}</td>
+                        </tr>
+                        <tr>
+                            <td>CO2 Emissions Per Capita (tonnes)</td>
+                            <td>{{ year_data.CO2_emissions.per_capita_tonnes }}</td>
+                        </tr>
+                        <tr>
+                            <td>Sea Level Rise (mm)</td>
+                            <td>{{ year_data.sea_level_rise.mm }}</td>
+                        </tr>
+                        <tr>
+                            <td>Temperature Increase Prediction</td>
+                            <td>{{ year_data.prediction.temperature_increase }}</td>
+                        </tr>
+                        <tr>
+                            <td>Sea Level Rise Prediction</td>
+                            <td>{{ year_data.prediction.sea_level_rise }}</td>
+                        </tr>
+                        <tr>
+                            <td>Climate Risk Index</td>
+                            <td>{{ year_data.status.climate_risk_index }}</td>
+                        </tr>
+                        <tr>
+                            <td>Policy Effectiveness Score</td>
+                            <td>{{ year_data.status.policy_effectiveness_score }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>{{ climate_text }}</p>  
+            </div>
+        </section>
+        {% endif %}
+
+        <!-- CTA and Footer here... -->
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.scrollex.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.scrolly.min.js' %}"></script>
+    <script src="{% static 'assets/js/browser.min.js' %}"></script>
+    <script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+    <script src="{% static 'assets/js/util.js' %}"></script>
+    <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+</html>
