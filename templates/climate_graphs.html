@@ -14,6 +14,23 @@
     border: 1px solid #ccc; /* Or adjust according to your design */
     color: #000; /* Adjust text color if needed */
 }
+        select.transparent-dropdown {
+        background-color: transparent;
+        border: 1px solid #ccc; /* You can change the border color as needed */
+        color: #000; /* Text color */
+        padding: 10px;
+        border-radius: 5px;
+        outline: none;
+        appearance: none;
+        -webkit-appearance: none; /* For Safari */
+        -moz-appearance: none; /* For Firefox */
+    }
+
+    /* To style the dropdown arrow */
+    select.transparent-dropdown option {
+        background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent option background */
+        color: #000;
+    }
     </style>
 </head>
 <body class="landing is-preload">
