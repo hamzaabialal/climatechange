@@ -29,12 +29,22 @@ class GenericPageView(TemplateView):
 import json
 import random
 
+landlocked_countries = [
+    "Afghanistan", "Andorra", "Armenia", "Austria", "Azerbaijan", "Belarus", "Bhutan",
+    "Bolivia", "Botswana", "Burkina Faso", "Burundi", "Central African Republic", "Chad",
+    "Czech Republic", "Eswatini", "Ethiopia", "Hungary", "Kazakhstan", "Kosovo", "Kyrgyzstan",
+    "Laos", "Lesotho", "Liechtenstein", "Luxembourg", "Malawi", "Mali", "Moldova", "Mongolia",
+    "Nepal", "North Macedonia", "Paraguay", "Rwanda", "San Marino", "Serbia", "Slovakia",
+    "South Sudan", "Switzerland", "Tajikistan", "Turkmenistan", "Uganda", "Uzbekistan",
+    "Vatican City", "Zambia", "Zimbabwe", "Niger", "South Sudan", "Burkina Faso", "Malawi",
+    "Ethiopia"
+]
+
 def generate_yearly_data(country, start_year, end_year):
     data = {"countries": {country: {}}}
 
     # Define temperature profiles and other data based on regions
-    if country in ["USA", "Canada", "Australia", "Norway", "Sweden", "Finland","Russia", "iceland", "Greenland", "Svalbard and Jan Mayen","Mongolia", "Norway", "Heard Island and McDonald Islands", "Finland", "Kyrgyzstan", "Sweden", "Tajikistan", "French Southern and Antarctic Lands", "Saint Pierre and Miquelon", "Estonia", "Switzerland", "Faroe Islands", "Latvia", "North Korea", "Kazakhstan", "Lithuania", " Austria", "Belarus", " Liechtenstein", "Armenia", "Andorra", "Czech Republic", "Poland", "Slovakia","Georgia", "United Kingdom", "Ukraine", "Chile"," Isle of Man", "Ireland", "Slovenia", "Montenegro", "Luxembourg", "Kosovo", "Romania", "Bosnia and Herzegovina", "Bhutan", "New Zealand", " Netherlands", "Belgium","North Macedonia", "Moldova","Bulgaria", "Serbia", "Hungary", "France", "Turkey", "Japan", "Croatia", "Guernsey","South Korea","Jersey","Lesotho", "Albania", "San Marino" ]:
-        # North America (colder winters)
+    if country in ["USA", "Canada", "Australia", "Norway", "Sweden", "Finland", "Russia", "Iceland", "Greenland", "Svalbard and Jan Mayen", "Mongolia", "Norway", "Heard Island and McDonald Islands", "Finland", "Kyrgyzstan", "Sweden", "Tajikistan", "French Southern and Antarctic Lands", "Saint Pierre and Miquelon", "Estonia", "Switzerland", "Faroe Islands", "Latvia", "North Korea", "Kazakhstan", "Lithuania", "Austria", "Belarus", "Liechtenstein", "Armenia", "Andorra", "Czech Republic", "Poland", "Slovakia", "Georgia", "United Kingdom", "Ukraine", "Chile", "Isle of Man", "Ireland", "Slovenia", "Montenegro", "Luxembourg", "Kosovo", "Romania", "Bosnia and Herzegovina", "Bhutan", "New Zealand", "Netherlands", "Belgium", "North Macedonia", "Moldova", "Bulgaria", "Serbia", "Hungary", "France", "Turkey", "Japan", "Croatia", "Guernsey", "South Korea", "Jersey", "Lesotho", "Albania", "San Marino"]:
         temperature_avg = 10.0
         temperature_min = -10
         temperature_max = 35
@@ -48,7 +58,6 @@ def generate_yearly_data(country, start_year, end_year):
         policy_effectiveness_score = 7.9
 
     elif country in ["Brazil", "South Africa", "New Zealand", "Chile", "Argentina", "Colombia", "Venezuela", "Ecuador", "Bolivia", "Paraguay", "Uruguay", "Panama", "Belize", "Venezuela", "Yemen", "Cuba", "Nicaragua", "Central African Republic", "Liberia", "El Salvador", "Gabon", "Kenya", "Puerto Rico"]:
-        # South America and Africa (hotter temperatures)
         temperature_avg = 25.0
         temperature_min = 15
         temperature_max = 45
@@ -61,8 +70,7 @@ def generate_yearly_data(country, start_year, end_year):
         climate_risk_index = 6.0
         policy_effectiveness_score = 7.5
 
-    elif country in ["India", "Pakistan", "Afghanistan", "Iran", "Iraq", "Saudi Arabia", "Oman", "United Arab Emirates", "Kuwait", "Morocco", "Tunisia", "Libya", "Egypt", "Israel", "Jordan", "Qatar", "Burkina Faso", "Mali", "Aruba", "Senegal", "Mauritania", "Tokelau", "Tuvalu", "Djibouti", "Curacao", "Gambia", "Maldives", "Niger", "Benin", "Marshall Islands","Guinea Bissau","South Sudan", "Sudan", "Palau", "Nauru", "Cayman Islands", "Guam","Kiribati", "Anguilla", "Saint Martin", "Sint Maarten", "Bahrain", "Singapore", "Ghana", "Oman", "Chad"]:
-        # Asia (hotter with significant variation)
+    elif country in ["India", "Pakistan", "Afghanistan", "Iran", "Iraq", "Saudi Arabia", "Oman", "United Arab Emirates", "Kuwait", "Morocco", "Tunisia", "Libya", "Egypt", "Israel", "Jordan", "Qatar", "Burkina Faso", "Mali", "Aruba", "Senegal", "Mauritania", "Tokelau", "Tuvalu", "Djibouti", "Curacao", "Gambia", "Maldives", "Niger", "Benin", "Marshall Islands", "Guinea Bissau", "South Sudan", "Sudan", "Palau", "Nauru", "Cayman Islands", "Guam", "Kiribati", "Anguilla", "Saint Martin", "Sint Maarten", "Bahrain", "Singapore", "Ghana", "Oman", "Chad"]:
         temperature_avg = 30.0
         temperature_min = 20
         temperature_max = 50
@@ -75,8 +83,7 @@ def generate_yearly_data(country, start_year, end_year):
         climate_risk_index = 6.5
         policy_effectiveness_score = 7.0
 
-    elif country in ["Germany", "France","Spain", "Italy", "United Kingdom", "Netherlands", "Belgium", "Switzerland", "Austria", "Denmark", "Poland", "Czech Republic", "Slovakia", "Hungary", "Romania", "Bulgaria", "Greece", "Portugal", "Ireland", "Australia", "Finland", "Norway", "Iceland", 'Turkey', "Chile", "Peru"]:
-        # Europe (colder winters, more temperate)
+    elif country in ["Germany", "France", "Spain", "Italy", "United Kingdom", "Netherlands", "Belgium", "Switzerland", "Austria", "Denmark", "Poland", "Czech Republic", "Slovakia", "Hungary", "Romania", "Bulgaria", "Greece", "Portugal", "Ireland", "Australia", "Finland", "Norway", "Iceland", "Turkey", "Chile", "Peru"]:
         temperature_avg = 8.0
         temperature_min = -5
         temperature_max = 30
@@ -90,7 +97,6 @@ def generate_yearly_data(country, start_year, end_year):
         policy_effectiveness_score = 8.0
 
     else:
-        # Default values for other countries
         temperature_avg = 18.0
         temperature_min = 8
         temperature_max = 40
@@ -102,6 +108,8 @@ def generate_yearly_data(country, start_year, end_year):
         sea_level_rise_prediction = 4.4
         climate_risk_index = 5.8
         policy_effectiveness_score = 7.7
+
+    # Check if the country is landlocked, set sea level rise to 0
 
     for year in range(start_year, end_year + 1):
         # Random slight changes for each year
@@ -116,6 +124,10 @@ def generate_yearly_data(country, start_year, end_year):
         sea_level_rise_prediction += round(random.uniform(0.01, 0.05), 2)
         climate_risk_index += round(random.uniform(0.01, 0.05), 2)
         policy_effectiveness_score += round(random.uniform(-0.05, 0.05), 2)
+
+        if country in landlocked_countries:
+            sea_level_rise_mm = 0
+            sea_level_rise_prediction = 0
 
         data["countries"][country][str(year)] = {
             "temperature": {

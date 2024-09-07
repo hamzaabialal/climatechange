@@ -1,0 +1,2008 @@
+{
+    "countries": {
+        "Tajikistan": {
+            "2024": {
+                "temperature": {
+                    "avg": 10.03,
+                    "min": -9.92,
+                    "max": 35.04
+                },
+                "precipitation": {
+                    "total_mm": 1101.44,
+                    "avg_mm": 91.79
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5125070,
+                    "per_capita_tonnes": 15.32
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 0.62,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.52,
+                    "policy_effectiveness_score": 7.95
+                }
+            },
+            "2025": {
+                "temperature": {
+                    "avg": 10.049999999999999,
+                    "min": -9.88,
+                    "max": 35.13
+                },
+                "precipitation": {
+                    "total_mm": 1104.1200000000001,
+                    "avg_mm": 92.01
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5153495,
+                    "per_capita_tonnes": 15.370000000000001
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 0.67,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.569999999999999,
+                    "policy_effectiveness_score": 7.95
+                }
+            },
+            "2026": {
+                "temperature": {
+                    "avg": 10.059999999999999,
+                    "min": -9.790000000000001,
+                    "max": 35.230000000000004
+                },
+                "precipitation": {
+                    "total_mm": 1106.5800000000002,
+                    "avg_mm": 92.22
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5180202,
+                    "per_capita_tonnes": 15.39
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 0.7000000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.6,
+                    "policy_effectiveness_score": 7.97
+                }
+            },
+            "2027": {
+                "temperature": {
+                    "avg": 10.11,
+                    "min": -9.760000000000002,
+                    "max": 35.300000000000004
+                },
+                "precipitation": {
+                    "total_mm": 1108.0300000000002,
+                    "avg_mm": 92.34
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5201338,
+                    "per_capita_tonnes": 15.440000000000001
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 0.7200000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.63,
+                    "policy_effectiveness_score": 7.93
+                }
+            },
+            "2028": {
+                "temperature": {
+                    "avg": 10.149999999999999,
+                    "min": -9.71,
+                    "max": 35.330000000000005
+                },
+                "precipitation": {
+                    "total_mm": 1109.5300000000002,
+                    "avg_mm": 92.46
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5215490,
+                    "per_capita_tonnes": 15.48
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 0.7400000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.6499999999999995,
+                    "policy_effectiveness_score": 7.89
+                }
+            },
+            "2029": {
+                "temperature": {
+                    "avg": 10.169999999999998,
+                    "min": -9.63,
+                    "max": 35.370000000000005
+                },
+                "precipitation": {
+                    "total_mm": 1113.88,
+                    "avg_mm": 92.82
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5235023,
+                    "per_capita_tonnes": 15.5
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 0.7800000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.699999999999999,
+                    "policy_effectiveness_score": 7.89
+                }
+            },
+            "2030": {
+                "temperature": {
+                    "avg": 10.179999999999998,
+                    "min": -9.540000000000001,
+                    "max": 35.46000000000001
+                },
+                "precipitation": {
+                    "total_mm": 1117.5,
+                    "avg_mm": 93.12
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5267633,
+                    "per_capita_tonnes": 15.51
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 0.8000000000000002,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.719999999999999,
+                    "policy_effectiveness_score": 7.859999999999999
+                }
+            },
+            "2031": {
+                "temperature": {
+                    "avg": 10.229999999999999,
+                    "min": -9.450000000000001,
+                    "max": 35.55000000000001
+                },
+                "precipitation": {
+                    "total_mm": 1121.21,
+                    "avg_mm": 93.43
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5291693,
+                    "per_capita_tonnes": 15.52
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 0.8500000000000002,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.749999999999999,
+                    "policy_effectiveness_score": 7.84
+                }
+            },
+            "2032": {
+                "temperature": {
+                    "avg": 10.269999999999998,
+                    "min": -9.420000000000002,
+                    "max": 35.65000000000001
+                },
+                "precipitation": {
+                    "total_mm": 1124.9,
+                    "avg_mm": 93.74
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5303718,
+                    "per_capita_tonnes": 15.549999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 0.8900000000000002,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.759999999999999,
+                    "policy_effectiveness_score": 7.84
+                }
+            },
+            "2033": {
+                "temperature": {
+                    "avg": 10.299999999999997,
+                    "min": -9.380000000000003,
+                    "max": 35.740000000000016
+                },
+                "precipitation": {
+                    "total_mm": 1126.8300000000002,
+                    "avg_mm": 93.9
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5325962,
+                    "per_capita_tonnes": 15.589999999999998
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 0.9200000000000003,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.7799999999999985,
+                    "policy_effectiveness_score": 7.88
+                }
+            },
+            "2034": {
+                "temperature": {
+                    "avg": 10.329999999999997,
+                    "min": -9.350000000000003,
+                    "max": 35.77000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1128.8700000000001,
+                    "avg_mm": 94.07
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5354424,
+                    "per_capita_tonnes": 15.619999999999997
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 0.9500000000000003,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.809999999999999,
+                    "policy_effectiveness_score": 7.84
+                }
+            },
+            "2035": {
+                "temperature": {
+                    "avg": 10.339999999999996,
+                    "min": -9.260000000000003,
+                    "max": 35.83000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1132.5400000000002,
+                    "avg_mm": 94.38
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5369894,
+                    "per_capita_tonnes": 15.639999999999997
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.0000000000000002,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.8599999999999985,
+                    "policy_effectiveness_score": 7.8
+                }
+            },
+            "2036": {
+                "temperature": {
+                    "avg": 10.369999999999996,
+                    "min": -9.220000000000004,
+                    "max": 35.88000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1136.2200000000003,
+                    "avg_mm": 94.69
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5390644,
+                    "per_capita_tonnes": 15.669999999999996
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.0400000000000003,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.889999999999999,
+                    "policy_effectiveness_score": 7.83
+                }
+            },
+            "2037": {
+                "temperature": {
+                    "avg": 10.389999999999995,
+                    "min": -9.170000000000003,
+                    "max": 35.97000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1140.8200000000002,
+                    "avg_mm": 95.07
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5412192,
+                    "per_capita_tonnes": 15.689999999999996
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.0900000000000003,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.929999999999999,
+                    "policy_effectiveness_score": 7.78
+                }
+            },
+            "2038": {
+                "temperature": {
+                    "avg": 10.419999999999995,
+                    "min": -9.150000000000004,
+                    "max": 36.060000000000024
+                },
+                "precipitation": {
+                    "total_mm": 1145.2700000000002,
+                    "avg_mm": 95.44
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5440968,
+                    "per_capita_tonnes": 15.709999999999996
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.1100000000000003,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.949999999999998,
+                    "policy_effectiveness_score": 7.760000000000001
+                }
+            },
+            "2039": {
+                "temperature": {
+                    "avg": 10.439999999999994,
+                    "min": -9.100000000000003,
+                    "max": 36.120000000000026
+                },
+                "precipitation": {
+                    "total_mm": 1149.2300000000002,
+                    "avg_mm": 95.77
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5488272,
+                    "per_capita_tonnes": 15.719999999999995
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.1500000000000004,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.969999999999998,
+                    "policy_effectiveness_score": 7.800000000000001
+                }
+            },
+            "2040": {
+                "temperature": {
+                    "avg": 10.459999999999994,
+                    "min": -9.040000000000003,
+                    "max": 36.15000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1150.4500000000003,
+                    "avg_mm": 95.87
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5511061,
+                    "per_capita_tonnes": 15.759999999999994
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.1900000000000004,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 5.9899999999999975,
+                    "policy_effectiveness_score": 7.790000000000001
+                }
+            },
+            "2041": {
+                "temperature": {
+                    "avg": 10.489999999999993,
+                    "min": -9.000000000000004,
+                    "max": 36.190000000000026
+                },
+                "precipitation": {
+                    "total_mm": 1153.2700000000002,
+                    "avg_mm": 96.11
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5550425,
+                    "per_capita_tonnes": 15.779999999999994
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.2200000000000004,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.009999999999997,
+                    "policy_effectiveness_score": 7.820000000000001
+                }
+            },
+            "2042": {
+                "temperature": {
+                    "avg": 10.529999999999992,
+                    "min": -8.960000000000004,
+                    "max": 36.230000000000025
+                },
+                "precipitation": {
+                    "total_mm": 1156.4300000000003,
+                    "avg_mm": 96.37
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5582584,
+                    "per_capita_tonnes": 15.799999999999994
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.2500000000000004,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.039999999999997,
+                    "policy_effectiveness_score": 7.860000000000001
+                }
+            },
+            "2043": {
+                "temperature": {
+                    "avg": 10.579999999999993,
+                    "min": -8.940000000000005,
+                    "max": 36.28000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1158.2300000000002,
+                    "avg_mm": 96.52
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5598804,
+                    "per_capita_tonnes": 15.819999999999993
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.2700000000000005,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.069999999999998,
+                    "policy_effectiveness_score": 7.870000000000001
+                }
+            },
+            "2044": {
+                "temperature": {
+                    "avg": 10.599999999999993,
+                    "min": -8.890000000000004,
+                    "max": 36.370000000000026
+                },
+                "precipitation": {
+                    "total_mm": 1161.5800000000002,
+                    "avg_mm": 96.8
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5628038,
+                    "per_capita_tonnes": 15.839999999999993
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.3000000000000005,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.109999999999998,
+                    "policy_effectiveness_score": 7.910000000000001
+                }
+            },
+            "2045": {
+                "temperature": {
+                    "avg": 10.609999999999992,
+                    "min": -8.840000000000003,
+                    "max": 36.42000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1166.5500000000002,
+                    "avg_mm": 97.21
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5648879,
+                    "per_capita_tonnes": 15.869999999999992
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.3500000000000005,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.149999999999998,
+                    "policy_effectiveness_score": 7.940000000000001
+                }
+            },
+            "2046": {
+                "temperature": {
+                    "avg": 10.639999999999992,
+                    "min": -8.750000000000004,
+                    "max": 36.43000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1168.3400000000001,
+                    "avg_mm": 97.36
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5690124,
+                    "per_capita_tonnes": 15.899999999999991
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.3900000000000006,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.1599999999999975,
+                    "policy_effectiveness_score": 7.920000000000002
+                }
+            },
+            "2047": {
+                "temperature": {
+                    "avg": 10.659999999999991,
+                    "min": -8.720000000000004,
+                    "max": 36.50000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1172.0700000000002,
+                    "avg_mm": 97.67
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5717517,
+                    "per_capita_tonnes": 15.919999999999991
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.4300000000000006,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.1999999999999975,
+                    "policy_effectiveness_score": 7.940000000000001
+                }
+            },
+            "2048": {
+                "temperature": {
+                    "avg": 10.669999999999991,
+                    "min": -8.700000000000005,
+                    "max": 36.55000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1175.3100000000002,
+                    "avg_mm": 97.94
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5759251,
+                    "per_capita_tonnes": 15.93999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.4700000000000006,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.2399999999999975,
+                    "policy_effectiveness_score": 7.910000000000001
+                }
+            },
+            "2049": {
+                "temperature": {
+                    "avg": 10.67999999999999,
+                    "min": -8.630000000000004,
+                    "max": 36.57000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1180.0600000000002,
+                    "avg_mm": 98.34
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5808527,
+                    "per_capita_tonnes": 15.97999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.4800000000000006,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.279999999999998,
+                    "policy_effectiveness_score": 7.910000000000001
+                }
+            },
+            "2050": {
+                "temperature": {
+                    "avg": 10.71999999999999,
+                    "min": -8.580000000000004,
+                    "max": 36.64000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1181.7200000000003,
+                    "avg_mm": 98.48
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5840384,
+                    "per_capita_tonnes": 15.98999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.5200000000000007,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.289999999999997,
+                    "policy_effectiveness_score": 7.950000000000001
+                }
+            },
+            "2051": {
+                "temperature": {
+                    "avg": 10.75999999999999,
+                    "min": -8.530000000000003,
+                    "max": 36.700000000000024
+                },
+                "precipitation": {
+                    "total_mm": 1184.5200000000002,
+                    "avg_mm": 98.71
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5877351,
+                    "per_capita_tonnes": 16.01999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.5400000000000007,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.309999999999997,
+                    "policy_effectiveness_score": 7.9300000000000015
+                }
+            },
+            "2052": {
+                "temperature": {
+                    "avg": 10.799999999999988,
+                    "min": -8.510000000000003,
+                    "max": 36.75000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1189.3300000000002,
+                    "avg_mm": 99.11
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5908151,
+                    "per_capita_tonnes": 16.059999999999988
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.5800000000000007,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.3299999999999965,
+                    "policy_effectiveness_score": 7.940000000000001
+                }
+            },
+            "2053": {
+                "temperature": {
+                    "avg": 10.819999999999988,
+                    "min": -8.490000000000004,
+                    "max": 36.80000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1192.8700000000001,
+                    "avg_mm": 99.41
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5941899,
+                    "per_capita_tonnes": 16.099999999999987
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.5900000000000007,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.3699999999999966,
+                    "policy_effectiveness_score": 7.910000000000001
+                }
+            },
+            "2054": {
+                "temperature": {
+                    "avg": 10.829999999999988,
+                    "min": -8.400000000000004,
+                    "max": 36.87000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1193.96,
+                    "avg_mm": 99.5
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 5987814,
+                    "per_capita_tonnes": 16.139999999999986
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.6400000000000008,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.399999999999997,
+                    "policy_effectiveness_score": 7.930000000000001
+                }
+            },
+            "2055": {
+                "temperature": {
+                    "avg": 10.849999999999987,
+                    "min": -8.350000000000003,
+                    "max": 36.88000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1198.5,
+                    "avg_mm": 99.88
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6009801,
+                    "per_capita_tonnes": 16.179999999999986
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.6800000000000008,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.419999999999996,
+                    "policy_effectiveness_score": 7.930000000000001
+                }
+            },
+            "2056": {
+                "temperature": {
+                    "avg": 10.889999999999986,
+                    "min": -8.300000000000002,
+                    "max": 36.90000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1202.22,
+                    "avg_mm": 100.19
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6034321,
+                    "per_capita_tonnes": 16.219999999999985
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.7300000000000009,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.459999999999996,
+                    "policy_effectiveness_score": 7.970000000000001
+                }
+            },
+            "2057": {
+                "temperature": {
+                    "avg": 10.939999999999987,
+                    "min": -8.210000000000003,
+                    "max": 36.93000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1203.72,
+                    "avg_mm": 100.31
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6084007,
+                    "per_capita_tonnes": 16.249999999999986
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.770000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.509999999999996,
+                    "policy_effectiveness_score": 8.0
+                }
+            },
+            "2058": {
+                "temperature": {
+                    "avg": 10.989999999999988,
+                    "min": -8.120000000000003,
+                    "max": 37.01000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1207.65,
+                    "avg_mm": 100.64
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6130161,
+                    "per_capita_tonnes": 16.269999999999985
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.800000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.5399999999999965,
+                    "policy_effectiveness_score": 8.0
+                }
+            },
+            "2059": {
+                "temperature": {
+                    "avg": 11.019999999999987,
+                    "min": -8.080000000000004,
+                    "max": 37.07000000000002
+                },
+                "precipitation": {
+                    "total_mm": 1211.2,
+                    "avg_mm": 100.93
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6155593,
+                    "per_capita_tonnes": 16.279999999999987
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.830000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.569999999999997,
+                    "policy_effectiveness_score": 8.02
+                }
+            },
+            "2060": {
+                "temperature": {
+                    "avg": 11.039999999999987,
+                    "min": -8.050000000000004,
+                    "max": 37.130000000000024
+                },
+                "precipitation": {
+                    "total_mm": 1212.44,
+                    "avg_mm": 101.04
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6166641,
+                    "per_capita_tonnes": 16.319999999999986
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.840000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.589999999999996,
+                    "policy_effectiveness_score": 8.0
+                }
+            },
+            "2061": {
+                "temperature": {
+                    "avg": 11.079999999999986,
+                    "min": -8.000000000000004,
+                    "max": 37.200000000000024
+                },
+                "precipitation": {
+                    "total_mm": 1217.3400000000001,
+                    "avg_mm": 101.45
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6195900,
+                    "per_capita_tonnes": 16.369999999999987
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.880000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.609999999999996,
+                    "policy_effectiveness_score": 8.01
+                }
+            },
+            "2062": {
+                "temperature": {
+                    "avg": 11.129999999999987,
+                    "min": -7.990000000000004,
+                    "max": 37.22000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1221.15,
+                    "avg_mm": 101.76
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6221749,
+                    "per_capita_tonnes": 16.409999999999986
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.920000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.659999999999996,
+                    "policy_effectiveness_score": 7.97
+                }
+            },
+            "2063": {
+                "temperature": {
+                    "avg": 11.149999999999986,
+                    "min": -7.950000000000004,
+                    "max": 37.24000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1224.9,
+                    "avg_mm": 102.08
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6254945,
+                    "per_capita_tonnes": 16.449999999999985
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.970000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.679999999999995,
+                    "policy_effectiveness_score": 8.01
+                }
+            },
+            "2064": {
+                "temperature": {
+                    "avg": 11.179999999999986,
+                    "min": -7.850000000000004,
+                    "max": 37.26000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1226.8600000000001,
+                    "avg_mm": 102.24
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6296681,
+                    "per_capita_tonnes": 16.479999999999986
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 1.990000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.719999999999995,
+                    "policy_effectiveness_score": 8.049999999999999
+                }
+            },
+            "2065": {
+                "temperature": {
+                    "avg": 11.189999999999985,
+                    "min": -7.770000000000004,
+                    "max": 37.31000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1230.3700000000001,
+                    "avg_mm": 102.53
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6342910,
+                    "per_capita_tonnes": 16.509999999999987
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.020000000000001,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.759999999999995,
+                    "policy_effectiveness_score": 8.04
+                }
+            },
+            "2066": {
+                "temperature": {
+                    "avg": 11.219999999999985,
+                    "min": -7.750000000000004,
+                    "max": 37.39000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1232.5800000000002,
+                    "avg_mm": 102.72
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6385377,
+                    "per_capita_tonnes": 16.549999999999986
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.0500000000000007,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.789999999999996,
+                    "policy_effectiveness_score": 8.03
+                }
+            },
+            "2067": {
+                "temperature": {
+                    "avg": 11.249999999999984,
+                    "min": -7.690000000000005,
+                    "max": 37.46000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1237.41,
+                    "avg_mm": 103.12
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6427808,
+                    "per_capita_tonnes": 16.559999999999988
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.0900000000000007,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.819999999999996,
+                    "policy_effectiveness_score": 8.04
+                }
+            },
+            "2068": {
+                "temperature": {
+                    "avg": 11.289999999999983,
+                    "min": -7.6200000000000045,
+                    "max": 37.50000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1241.5400000000002,
+                    "avg_mm": 103.46
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6449646,
+                    "per_capita_tonnes": 16.56999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.1400000000000006,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.859999999999996,
+                    "policy_effectiveness_score": 7.999999999999999
+                }
+            },
+            "2069": {
+                "temperature": {
+                    "avg": 11.319999999999983,
+                    "min": -7.610000000000005,
+                    "max": 37.60000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1243.0200000000002,
+                    "avg_mm": 103.59
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6464346,
+                    "per_capita_tonnes": 16.59999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.1800000000000006,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.889999999999996,
+                    "policy_effectiveness_score": 7.949999999999999
+                }
+            },
+            "2070": {
+                "temperature": {
+                    "avg": 11.349999999999982,
+                    "min": -7.570000000000005,
+                    "max": 37.66000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1246.2300000000002,
+                    "avg_mm": 103.85
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6482937,
+                    "per_capita_tonnes": 16.61999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.1900000000000004,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.899999999999996,
+                    "policy_effectiveness_score": 7.909999999999999
+                }
+            },
+            "2071": {
+                "temperature": {
+                    "avg": 11.379999999999981,
+                    "min": -7.530000000000005,
+                    "max": 37.71000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1247.4900000000002,
+                    "avg_mm": 103.96
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6501019,
+                    "per_capita_tonnes": 16.65999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.22,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.9199999999999955,
+                    "policy_effectiveness_score": 7.89
+                }
+            },
+            "2072": {
+                "temperature": {
+                    "avg": 11.39999999999998,
+                    "min": -7.470000000000005,
+                    "max": 37.79000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1252.3900000000003,
+                    "avg_mm": 104.37
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6540944,
+                    "per_capita_tonnes": 16.70999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.2600000000000002,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.929999999999995,
+                    "policy_effectiveness_score": 7.859999999999999
+                }
+            },
+            "2073": {
+                "temperature": {
+                    "avg": 11.42999999999998,
+                    "min": -7.390000000000005,
+                    "max": 37.81000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1253.8500000000004,
+                    "avg_mm": 104.49
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6578889,
+                    "per_capita_tonnes": 16.74999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.2800000000000002,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.949999999999995,
+                    "policy_effectiveness_score": 7.869999999999999
+                }
+            },
+            "2074": {
+                "temperature": {
+                    "avg": 11.43999999999998,
+                    "min": -7.340000000000005,
+                    "max": 37.88000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1255.1300000000003,
+                    "avg_mm": 104.59
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6605791,
+                    "per_capita_tonnes": 16.76999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.31,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 6.999999999999995,
+                    "policy_effectiveness_score": 7.879999999999999
+                }
+            },
+            "2075": {
+                "temperature": {
+                    "avg": 11.45999999999998,
+                    "min": -7.280000000000006,
+                    "max": 37.92000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1256.9700000000003,
+                    "avg_mm": 104.75
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6642320,
+                    "per_capita_tonnes": 16.79999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.36,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.029999999999995,
+                    "policy_effectiveness_score": 7.849999999999999
+                }
+            },
+            "2076": {
+                "temperature": {
+                    "avg": 11.479999999999979,
+                    "min": -7.260000000000006,
+                    "max": 37.96000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1258.2400000000002,
+                    "avg_mm": 104.85
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6680624,
+                    "per_capita_tonnes": 16.82999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.38,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.059999999999995,
+                    "policy_effectiveness_score": 7.799999999999999
+                }
+            },
+            "2077": {
+                "temperature": {
+                    "avg": 11.489999999999979,
+                    "min": -7.250000000000006,
+                    "max": 38.04000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1260.6000000000001,
+                    "avg_mm": 105.05
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6710988,
+                    "per_capita_tonnes": 16.879999999999992
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.4099999999999997,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.099999999999995,
+                    "policy_effectiveness_score": 7.789999999999999
+                }
+            },
+            "2078": {
+                "temperature": {
+                    "avg": 11.53999999999998,
+                    "min": -7.170000000000006,
+                    "max": 38.090000000000025
+                },
+                "precipitation": {
+                    "total_mm": 1262.1100000000001,
+                    "avg_mm": 105.18
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6751438,
+                    "per_capita_tonnes": 16.91999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.4199999999999995,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.139999999999995,
+                    "policy_effectiveness_score": 7.759999999999999
+                }
+            },
+            "2079": {
+                "temperature": {
+                    "avg": 11.58999999999998,
+                    "min": -7.160000000000006,
+                    "max": 38.18000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1265.5300000000002,
+                    "avg_mm": 105.46
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6766327,
+                    "per_capita_tonnes": 16.96999999999999
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.4299999999999993,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.159999999999995,
+                    "policy_effectiveness_score": 7.709999999999999
+                }
+            },
+            "2080": {
+                "temperature": {
+                    "avg": 11.59999999999998,
+                    "min": -7.090000000000006,
+                    "max": 38.24000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1267.9400000000003,
+                    "avg_mm": 105.66
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6802874,
+                    "per_capita_tonnes": 16.979999999999993
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.4499999999999993,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.199999999999995,
+                    "policy_effectiveness_score": 7.739999999999999
+                }
+            },
+            "2081": {
+                "temperature": {
+                    "avg": 11.60999999999998,
+                    "min": -7.020000000000006,
+                    "max": 38.27000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1271.4300000000003,
+                    "avg_mm": 105.95
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6828302,
+                    "per_capita_tonnes": 16.989999999999995
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.479999999999999,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.209999999999995,
+                    "policy_effectiveness_score": 7.7299999999999995
+                }
+            },
+            "2082": {
+                "temperature": {
+                    "avg": 11.62999999999998,
+                    "min": -7.000000000000006,
+                    "max": 38.35000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1273.1700000000003,
+                    "avg_mm": 106.1
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6842607,
+                    "per_capita_tonnes": 17.029999999999994
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.489999999999999,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.229999999999994,
+                    "policy_effectiveness_score": 7.71
+                }
+            },
+            "2083": {
+                "temperature": {
+                    "avg": 11.669999999999979,
+                    "min": -6.910000000000006,
+                    "max": 38.36000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1274.5000000000002,
+                    "avg_mm": 106.21
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6887830,
+                    "per_capita_tonnes": 17.039999999999996
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.4999999999999987,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.249999999999994,
+                    "policy_effectiveness_score": 7.67
+                }
+            },
+            "2084": {
+                "temperature": {
+                    "avg": 11.709999999999978,
+                    "min": -6.870000000000006,
+                    "max": 38.370000000000026
+                },
+                "precipitation": {
+                    "total_mm": 1276.1700000000003,
+                    "avg_mm": 106.35
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6903639,
+                    "per_capita_tonnes": 17.089999999999996
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.5299999999999985,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.289999999999994,
+                    "policy_effectiveness_score": 7.65
+                }
+            },
+            "2085": {
+                "temperature": {
+                    "avg": 11.739999999999977,
+                    "min": -6.790000000000006,
+                    "max": 38.450000000000024
+                },
+                "precipitation": {
+                    "total_mm": 1280.9300000000003,
+                    "avg_mm": 106.74
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6953595,
+                    "per_capita_tonnes": 17.139999999999997
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.5499999999999985,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.339999999999994,
+                    "policy_effectiveness_score": 7.66
+                }
+            },
+            "2086": {
+                "temperature": {
+                    "avg": 11.759999999999977,
+                    "min": -6.720000000000006,
+                    "max": 38.510000000000026
+                },
+                "precipitation": {
+                    "total_mm": 1284.9800000000002,
+                    "avg_mm": 107.08
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 6984600,
+                    "per_capita_tonnes": 17.179999999999996
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.5899999999999985,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.359999999999993,
+                    "policy_effectiveness_score": 7.66
+                }
+            },
+            "2087": {
+                "temperature": {
+                    "avg": 11.809999999999977,
+                    "min": -6.700000000000006,
+                    "max": 38.54000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1287.6600000000003,
+                    "avg_mm": 107.31
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7006699,
+                    "per_capita_tonnes": 17.229999999999997
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.6299999999999986,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.379999999999993,
+                    "policy_effectiveness_score": 7.65
+                }
+            },
+            "2088": {
+                "temperature": {
+                    "avg": 11.829999999999977,
+                    "min": -6.630000000000006,
+                    "max": 38.63000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1289.8900000000003,
+                    "avg_mm": 107.49
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7050319,
+                    "per_capita_tonnes": 17.279999999999998
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.6699999999999986,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.409999999999993,
+                    "policy_effectiveness_score": 7.640000000000001
+                }
+            },
+            "2089": {
+                "temperature": {
+                    "avg": 11.869999999999976,
+                    "min": -6.550000000000006,
+                    "max": 38.68000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1293.4800000000002,
+                    "avg_mm": 107.79
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7070928,
+                    "per_capita_tonnes": 17.31
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.7199999999999984,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.429999999999993,
+                    "policy_effectiveness_score": 7.66
+                }
+            },
+            "2090": {
+                "temperature": {
+                    "avg": 11.879999999999976,
+                    "min": -6.460000000000006,
+                    "max": 38.71000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1296.9900000000002,
+                    "avg_mm": 108.08
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7104340,
+                    "per_capita_tonnes": 17.33
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.7599999999999985,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.449999999999992,
+                    "policy_effectiveness_score": 7.67
+                }
+            },
+            "2091": {
+                "temperature": {
+                    "avg": 11.919999999999975,
+                    "min": -6.450000000000006,
+                    "max": 38.81000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1298.4000000000003,
+                    "avg_mm": 108.2
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7148914,
+                    "per_capita_tonnes": 17.369999999999997
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.7999999999999985,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.499999999999992,
+                    "policy_effectiveness_score": 7.7
+                }
+            },
+            "2092": {
+                "temperature": {
+                    "avg": 11.929999999999975,
+                    "min": -6.370000000000006,
+                    "max": 38.89000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1300.0100000000002,
+                    "avg_mm": 108.33
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7193465,
+                    "per_capita_tonnes": 17.389999999999997
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.8399999999999985,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.529999999999992,
+                    "policy_effectiveness_score": 7.67
+                }
+            },
+            "2093": {
+                "temperature": {
+                    "avg": 11.969999999999974,
+                    "min": -6.290000000000006,
+                    "max": 38.93000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1302.5500000000002,
+                    "avg_mm": 108.55
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7232590,
+                    "per_capita_tonnes": 17.4
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.8799999999999986,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.569999999999992,
+                    "policy_effectiveness_score": 7.63
+                }
+            },
+            "2094": {
+                "temperature": {
+                    "avg": 11.979999999999974,
+                    "min": -6.210000000000006,
+                    "max": 38.940000000000026
+                },
+                "precipitation": {
+                    "total_mm": 1304.38,
+                    "avg_mm": 108.7
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7282206,
+                    "per_capita_tonnes": 17.419999999999998
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.9099999999999984,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.609999999999992,
+                    "policy_effectiveness_score": 7.6499999999999995
+                }
+            },
+            "2095": {
+                "temperature": {
+                    "avg": 11.989999999999974,
+                    "min": -6.140000000000006,
+                    "max": 39.010000000000026
+                },
+                "precipitation": {
+                    "total_mm": 1306.7,
+                    "avg_mm": 108.89
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7294295,
+                    "per_capita_tonnes": 17.43
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.939999999999998,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.659999999999992,
+                    "policy_effectiveness_score": 7.6899999999999995
+                }
+            },
+            "2096": {
+                "temperature": {
+                    "avg": 12.009999999999973,
+                    "min": -6.050000000000006,
+                    "max": 39.10000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1307.97,
+                    "avg_mm": 109.0
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7307722,
+                    "per_capita_tonnes": 17.46
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 2.989999999999998,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.679999999999992,
+                    "policy_effectiveness_score": 7.67
+                }
+            },
+            "2097": {
+                "temperature": {
+                    "avg": 12.049999999999972,
+                    "min": -5.990000000000006,
+                    "max": 39.19000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1309.6000000000001,
+                    "avg_mm": 109.13
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7336424,
+                    "per_capita_tonnes": 17.48
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 3.019999999999998,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.719999999999992,
+                    "policy_effectiveness_score": 7.64
+                }
+            },
+            "2098": {
+                "temperature": {
+                    "avg": 12.089999999999971,
+                    "min": -5.950000000000006,
+                    "max": 39.23000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1313.8700000000001,
+                    "avg_mm": 109.49
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7352092,
+                    "per_capita_tonnes": 17.51
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 3.0499999999999976,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.739999999999991,
+                    "policy_effectiveness_score": 7.62
+                }
+            },
+            "2099": {
+                "temperature": {
+                    "avg": 12.139999999999972,
+                    "min": -5.910000000000006,
+                    "max": 39.290000000000035
+                },
+                "precipitation": {
+                    "total_mm": 1317.0700000000002,
+                    "avg_mm": 109.76
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7372577,
+                    "per_capita_tonnes": 17.55
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 3.0999999999999974,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.759999999999991,
+                    "policy_effectiveness_score": 7.64
+                }
+            },
+            "2100": {
+                "temperature": {
+                    "avg": 12.179999999999971,
+                    "min": -5.890000000000007,
+                    "max": 39.30000000000003
+                },
+                "precipitation": {
+                    "total_mm": 1320.9700000000003,
+                    "avg_mm": 110.08
+                },
+                "CO2_emissions": {
+                    "total_tonnes": 7410376,
+                    "per_capita_tonnes": 17.57
+                },
+                "sea_level_rise": {
+                    "mm": 0
+                },
+                "prediction": {
+                    "temperature_increase": 3.1199999999999974,
+                    "sea_level_rise": 0
+                },
+                "status": {
+                    "climate_risk_index": 7.789999999999991,
+                    "policy_effectiveness_score": 7.59
+                }
+            }
+        }
+    }
+}
