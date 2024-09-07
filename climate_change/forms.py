@@ -264,6 +264,6 @@ class ClimateGraphForm(forms.Form):
         ('Singapore', 'Singapore'),
         ('Ghana', 'Ghana'),
         ('Chad', 'Chad'),
-    ])
+    ],   widget=forms.Select(attrs={'class': 'transparent-dropdown'}))
     start_year = forms.IntegerField(min_value=2024, max_value=2100, label='start Year', widget=forms.NumberInput(attrs={'class': 'transparent-input'}))
     end_year = forms.IntegerField(min_value=2024, max_value=2100, label='End Year', widget=forms.NumberInput(attrs={'class': 'transparent-input'}))
